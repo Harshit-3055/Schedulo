@@ -11,6 +11,7 @@
 		EE62765F2C5A710D00FA778F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62765E2C5A710D00FA778F /* ContentView.swift */; };
 		EE6276612C5A710E00FA778F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6276602C5A710E00FA778F /* Assets.xcassets */; };
 		EE6276642C5A710E00FA778F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6276632C5A710E00FA778F /* Preview Assets.xcassets */; };
+		EE62766B2C5AD66000FA778F /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62766A2C5AD66000FA778F /* ScheduleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EE62765E2C5A710D00FA778F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE6276602C5A710E00FA778F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6276632C5A710E00FA778F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE62766A2C5AD66000FA778F /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EE62765C2C5A710D00FA778F /* ScheduloApp.swift */,
 				EE62765E2C5A710D00FA778F /* ContentView.swift */,
+				EE62766A2C5AD66000FA778F /* ScheduleData.swift */,
 				EE6276602C5A710E00FA778F /* Assets.xcassets */,
 				EE6276622C5A710E00FA778F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE62765F2C5A710D00FA778F /* ContentView.swift in Sources */,
+				EE62766B2C5AD66000FA778F /* ScheduleData.swift in Sources */,
 				EE62765D2C5A710D00FA778F /* ScheduloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
