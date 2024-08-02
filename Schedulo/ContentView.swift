@@ -18,6 +18,9 @@ struct ContentView: View {
     @State private var daySelected: String = ""
     @State private var classes: [ClassSchedule] = []
     
+    // Pass scheduleData instance
+    let scheduleData: ScheduleData
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -33,7 +36,8 @@ struct ContentView: View {
                     }
                 }
                 Form {
-                    ForEach(classes) { classSchedule in
+                    ForEach(classes.indices, id: \.self) { index in
+                        let classSchedule = classes[index]
                         VStack {
                             HStack {
                                 Image(systemName: "book.fill")
@@ -50,14 +54,17 @@ struct ContentView: View {
                         }
                     }
                 }
+
                 .navigationTitle("Schedulo")
                 .toolbar {
-                    Picker("Section", selection: $selectedSection) {
-                        ForEach(["CSE-34", "CSE-35"], id: \.self) { sec in
-                            Text(sec).tag(sec)
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Picker("Section", selection: $selectedSection) {
+                            ForEach(0..<49) { sec in
+                                Text("CSE-\(sec)").tag("CSE-\(sec)")
+                            }
                         }
+                        .pickerStyle(MenuPickerStyle())
                     }
-                    .pickerStyle(MenuPickerStyle())
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                 .padding()
@@ -73,10 +80,14 @@ struct ContentView: View {
     
     func dayPressed(dayPress: String) {
         daySelected = dayPress
-        if let sectionSchedule = ScheduleData.schedules[selectedSection]?[dayPress] {
+        print("Day Selected: \(daySelected)")
+        print("Section: \(selectedSection)")
+        if let sectionSchedule = scheduleData.schedules[selectedSection]?[dayPress] {
             classes = sectionSchedule
+            print("Classes: \(classes)")
         } else {
             classes = []
+            print("No classes found for this day and section.")
         }
     }
     
@@ -95,6 +106,12 @@ struct ContentView: View {
         dayPressed(dayPress: daySelected)
     }
 }
+
 #Preview {
-    ContentView()
+    // Ensure you pass the actual scheduleData instance here
+    if let scheduleData = loadScheduleData() {
+        ContentView(scheduleData: scheduleData)
+    } else {
+        Text("Failed to load schedule data")
+    }
 }

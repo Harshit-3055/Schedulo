@@ -1,0 +1,26 @@
+{
+  "schedules": {
+    "CSE-34": {
+      "Sun": [
+        {
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
+        },
+        {
+            "className": "AFL",
+            "time": "Holiday",
+            "venue": "Holiday"
+        }
+      ],
+      "Mon": [
+        {
+          "className": "STW",
+          "time": "9:00-10:00",
+          "venue": "C-LH-307"
+        }
+       
+      ],
+    }
+  }
+}

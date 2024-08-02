@@ -11,7 +11,12 @@ import SwiftUI
 struct ScheduloApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if let scheduleData = loadScheduleData() {
+                ContentView(scheduleData: scheduleData)
+            } else {
+                Text("Failed to load schedule data")
+            }
         }
     }
 }
+

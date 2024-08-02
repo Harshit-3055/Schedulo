@@ -12,6 +12,7 @@
 		EE6276612C5A710E00FA778F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6276602C5A710E00FA778F /* Assets.xcassets */; };
 		EE6276642C5A710E00FA778F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6276632C5A710E00FA778F /* Preview Assets.xcassets */; };
 		EE62766B2C5AD66000FA778F /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62766A2C5AD66000FA778F /* ScheduleData.swift */; };
+		EE62766D2C5C20F900FA778F /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = EE62766C2C5C20F900FA778F /* schedule.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +21,8 @@
 		EE62765E2C5A710D00FA778F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE6276602C5A710E00FA778F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6276632C5A710E00FA778F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE62766A2C5AD66000FA778F /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		EE62766A2C5AD66000FA778F /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EE62766C2C5C20F900FA778F /* schedule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				EE62765C2C5A710D00FA778F /* ScheduloApp.swift */,
 				EE62765E2C5A710D00FA778F /* ContentView.swift */,
 				EE62766A2C5AD66000FA778F /* ScheduleData.swift */,
+				EE62766C2C5C20F900FA778F /* schedule.json */,
 				EE6276602C5A710E00FA778F /* Assets.xcassets */,
 				EE6276622C5A710E00FA778F /* Preview Content */,
 			);
@@ -130,6 +133,7 @@
 			files = (
 				EE6276642C5A710E00FA778F /* Preview Assets.xcassets in Resources */,
 				EE6276612C5A710E00FA778F /* Assets.xcassets in Resources */,
+				EE62766D2C5C20F900FA778F /* schedule.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
