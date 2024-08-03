@@ -6,58 +6,133 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "9:00-11:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DS",
+          "time": "2:00-3:00",
+          "venue": "C-LH-203"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
-        }
+          "time": "3:00-4:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "PS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-203"
+        },
        
       ],
       "Tue": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "PS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "AFL",
+          "time": "12:00-1:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "IND4",
+          "time": "1:00-2:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "DS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-401"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-101"
         }
        
       ],
       "Thu": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "PS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "DSD",
+          "time": "4:00-5:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "AFL",
+          "time": "5:00-6:00",
+          "venue": "C-LH-203"
         }
        
       ],
       "Fri": [
         {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "11:00-12:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "DSD",
+          "time": "12:00-1:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "PS",
+          "time": "1:00-2:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "IND4",
+          "time": "3:00-4:00",
+          "venue": "C-LH-403"
+        },
+        {
+          "className": "AFL",
+          "time": "4:00-5:00",
+          "venue": "C-LH-403"
+        },
+        {
+          "className": "DS",
+          "time": "5:00-6:00",
+          "venue": "C-LH-403"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-405"
+        },
+        {
+          "className": "AFL",
+          "time": "12:00-1:00",
+          "venue": "C-LH-405"
         }
        
       ]
@@ -68,58 +143,135 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
+        
       ],
       "Mon": [
         {
+          "className": "PS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-203"
+        },
+        {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "DS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "IND4",
+          "time": "11:00-12:00",
+          "venue": "C-LH-303"
         }
        
       ],
       "Tue": [
         {
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "9:00-11:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DS",
+          "time": "2:00-3:00",
+          "venue": "C-LH-301"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "3:00-4:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "PS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "AFL",
+          "time": "5:00-6:00",
+          "venue": "C-LH-301"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
+        
        
       ],
       "Thu": [
         {
-          "className": "STW",
+          "className": "AFL",
+          "time": "8:00-9:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "DS",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "PS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C-WL-201"
+        },
+        {
+          "className": "DS(L)",
+          "time": "12:00-2:00",
+          "venue": "C-WL-201"
         }
        
       ],
       "Fri": [
         {
-          "className": "STW",
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "IND4",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "AFL",
+          "time": "10:00-11:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "PS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-202"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "10:00-11:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-203"
         }
        
       ]
@@ -130,58 +282,132 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C12 DEC(new)"
+        },
+        {
+            "className": "DSD(L)",
+            "time": "12:00-2:00",
+            "venue": "C12 DEC(new)"
+        },
+        {
+            "className": "DS",
+            "time": "3:00-4:00",
+            "venue": "C-LH-301"
+        },
+        {
+            "className": "PS",
+            "time": "4:00-5:00",
+            "venue": "C-LH-301"
         }
        
       ],
       "Tue": [
         {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-201"
+        },
+        {
+          "className": "IND4",
+          "time": "12:00-1:00",
+          "venue": "C-LH-201"
+        },
+        {
+          "className": "PS",
+          "time": "1:00-2:00",
+          "venue": "C-LH-201"
+        },
+        {
+          "className": "DSD",
+          "time": "3:00-4:00",
+          "venue": "C-LH-302"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "4:00-5:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "AFL",
+          "time": "5:00-6:00",
+          "venue": "C-LH-302"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
+          "className": "DS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DSD",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "PS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "IND4",
+          "time": "2:00-3:00",
+          "venue": "C-LH-204"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-204"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-102"
         }
        
       ],
       "Thu": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
-       
       ],
       "Fri": [
         {
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "C-LH-302"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "12:00-1:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "PS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-404"
+        },
+        {
+          "className": "DS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-404"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-404"
         }
        
       ]
@@ -192,18 +418,33 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C12 DEC(new)"
+        },
+        {
+            "className": "DSD(L)",
+            "time": "9:00-11:00",
+            "venue": "C12 DEC(new)"
+        },
+        {
+            "className": "PS",
+            "time": "11:00-12:00",
+            "venue": "ETC LT-2"
+        },
+        {
+            "className": "DS",
+            "time": "12:00-1:00",
+            "venue": "ETC LT-2"
+        },
+        {
+            "className": "IND4",
+            "time": "1:00-2:00",
+            "venue": "ETC LT-2"
         }
        
       ],
@@ -211,39 +452,100 @@
         {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "AFL",
+          "time": "10:00-11:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-202"
+        },
+        {
+          "className": "PS",
+          "time": "12:00-1:00",
+          "venue": "C-LH-202"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
+          "className": "DS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "AFL",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "IND4",
+          "time": "10:00-11:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "PS",
+          "time": "12:00-1:00",
+          "venue": "C-LH-302"
         }
        
       ],
       "Thu": [
         {
+          "className": "AFL",
+          "time": "8:00-9:00",
+          "venue": "C-LH-302"
+        },
+        {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "PS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DSD",
+          "time": "2:00-3:00",
+          "venue": "C-LH-207"
+        },
+        {
+          "className": "DS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-207"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-101"
         }
+       
        
       ],
       "Fri": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "C-LH-302"
         }
        
       ]
@@ -254,58 +556,133 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C12 SIMU"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "12:00-2:00",
+          "venue": "C12 SIMU"
+        },
+        {
+          "className": "PS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-302"
         }
        
       ],
       "Tue": [
         {
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "PS",
+          "time": "12:00-1:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "DS",
+          "time": "1:00-2:00",
+          "venue": "C-LH-203"
+        },
+        {
+          "className": "DSD",
+          "time": "3:00-4:00",
+          "venue": "C-LH-303"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "4:00-5:00",
+          "venue": "C-LH-303"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "PS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "IND4",
+          "time": "12:00-1:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-403"
+        },
+        {
+          "className": "DS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-403"
         }
        
       ],
       "Thu": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DS",
+          "time": "12:00-1:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DSD",
+          "time": "1:00-2:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "IND4",
+          "time": "3:00-4:00",
+          "venue": "C-LH-208"
         }
        
       ],
       "Fri": [
         {
-          "className": "STW",
+          "className": "PS",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "STW",
+          "time": "10:00-11:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-101"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
        
       ]
@@ -316,58 +693,132 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
-       
       ],
       "Tue": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C12 WCN"
+        },
+        {
+            "className": "DSD(L)",
+            "time": "9:00-11:00",
+            "venue": "C12 WCN"
+        },
+        {
+            "className": "AFL",
+            "time": "11:00-12:00",
+            "venue": "ETC LT-2"
+        },
+        {
+            "className": "DS",
+            "time": "12:00-1:00",
+            "venue": "ETC LT-2"
+        },
+        {
+            "className": "PS",
+            "time": "1:00-2:00",
+            "venue": "ETC LT-2"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
+          "className": "DS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "AFL",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
-        }
+          "venue": "C-LH-001"
+      },
+      {
+          "className": "PS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-001"
+      },
+      {
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C-LH-001"
+      },
+      {
+          "className": "STW",
+          "time": "12:00-1:00",
+          "venue": "C-LH-001"
+      }
        
       ],
       "Thu": [
         {
-          "className": "STW",
+          "className": "DSD",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
-        }
+          "venue": "C-LH-303"
+      },
+      {
+          "className": "IND4",
+          "time": "10:00-11:00",
+          "venue": "C-LH-303"
+      },
+      {
+          "className": "PS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-303"
+      },
+      {
+          "className": "AFL",
+          "time": "12:00-1:00",
+          "venue": "C-LH-303"
+      },
+      {
+        "className": "DS",
+        "time": "1:00-2:00",
+        "venue": "C-LH-303"
+    }
        
       ],
       "Fri": [
         {
+          "className": "PS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-001"
+        },
+        {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
-        }
+          "venue": "C-LH-001"
+      },
+      {
+          "className": "IND4",
+          "time": "10:00-11:00",
+          "venue": "C-LH-001"
+      }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "8:00-9:00",
+          "venue": "C-LH-405"
+        },
+        {
+          "className": "DS(L)",
+          "time": "9:00-11:00",
+          "venue": "C-WL-102"
+        },
+        {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-406"
         }
        
       ]
@@ -378,58 +829,132 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
+          "className": "PS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "DS",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "STW",
+          "time": "10:00-11:00",
+          "venue": "C-LH-301"
+        },
+        {
+          "className": "IND4",
+          "time": "2:00-3:00",
+          "venue": "C-LH-208"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-208"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-101"
         }
        
       ],
       "Tue": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "12:00-2:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "PS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-404"
+        },
+        {
+          "className": "AFL",
+          "time": "4:00-5:00",
+          "venue": "C-LH-404"
+        },
+        {
+          "className": "DS",
+          "time": "5:00-6:00",
+          "venue": "C-LH-404"
         }
-       
       ],
       "Thu": [
         {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-001"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "12:00-1:00",
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "PS",
+          "time": "1:00-2:00",
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "DSD",
+          "time": "3:00-4:00",
+          "venue": "C-LH-304"
         }
        
       ],
       "Fri": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "IND4",
+          "time": "11:00-12:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "AFL",
+          "time": "12:00-1:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "DSD",
+          "time": "1:00-2:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "DS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-405"
+        },
+        {
+          "className": "PS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-405"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "C-LH-001"
         }
        
       ]
@@ -440,58 +965,133 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
+          "className": "DSD",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "IND4",
+          "time": "10:00-11:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "AFL",
+          "time": "12:00-1:00",
+          "venue": "C-LH-302"
+        },
+        {
+          "className": "PS",
+          "time": "1:00-2:00",
+          "venue": "C-LH-302"
         }
        
       ],
       "Tue": [
         {
+          "className": "DS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-303"
+        },
+        {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "PS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "IND4",
+          "time": "2:00-3:00",
+          "venue": "C-LH-202"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-202"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-101"
         }
        
       ],
       "Wed": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
        
       ],
       "Thu": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "9:00-11:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DS",
+          "time": "11:00-12:00",
+          "venue": "ETC LT-2"
+        },
+        {
+          "className": "PS",
+          "time": "12:00-1:00",
+          "venue": "ETC LT-2"
         }
        
       ],
       "Fri": [
         {
-          "className": "STW",
+          "className": "PS",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "AFL",
+          "time": "8:00-9:00",
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "DS",
+          "time": "9:00-11:00",
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "STW",
+          "time": "12:00-1:00",
+          "venue": "C-LH-001"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "10:00-11:00",
+          "venue": "C-LH-301"
         }
        
       ]
@@ -502,58 +1102,131 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DS",
+          "time": "12:00-1:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "PS",
+          "time": "1:00-2:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "DSD",
+          "time": "3:00-4:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "AFL",
+          "time": "4:00-5:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "IND4",
+          "time": "5:00-6:00",
+          "venue": "C-LH-303"
         }
        
       ],
       "Tue": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "12:00-2:00",
+          "venue": "C12 DEC(old)"
+        },
+        {
+          "className": "PS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "DS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-001"
         }
-       
       ],
       "Wed": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
-        }
-       
-      ],
-      "Thu": [
+          "className": "PS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-003"
+        },
         {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "DS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "DSD",
+          "time": "2:00-3:00",
+          "venue": "C-LH-205"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-205"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-103"
+        }
+      ],
+      "Thu": [
+        {
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
         }
        
       ],
       "Fri": [
         {
+          "className": "IND4",
+          "time": "11:00-12:00",
+          "venue": "C-LH-003"
+        },
+        {
           "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "time": "12:00-1:00",
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "DS",
+          "time": "3:00-4:00",
+          "venue": "C-LH-201"
+        },
+        {
+          "className": "PS",
+          "time": "4:00-5:00",
+          "venue": "C-LH-201"
+        },
+        {
+          "className": "AFL",
+          "time": "5:00-6:00",
+          "venue": "C-WL-201"
         }
        
       ],
       "Sat": [
         {
-          "className": "STW",
-          "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "C-LH-003"
         }
        
       ]
@@ -564,21 +1237,138 @@
           "className": "Holiday",
           "time": "Holiday",
           "venue": "Holiday"
-        },
-        {
-            "className": "AFL",
-            "time": "Holiday",
-            "venue": "Holiday"
         }
       ],
       "Mon": [
         {
+          "className": "DSD",
+          "time": "9:00-10:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "AFL",
+          "time": "10:00-11:00",
+          "venue": "C-LH-303"
+        },
+        {
+          "className": "PS",
+          "time": "11:00-12:00",
+          "venue": "C-LH-001"
+        }
+       ,
+       {
+        "className": "STW",
+        "time": "12:00-1:00",
+        "venue": "C-LH-001"
+      },
+     {
+      "className": "DS",
+      "time": "1:00-2:00",
+      "venue": "C-LH-001"
+     }
+       
+      ]
+      ,
+      "Tue": [
+        {
+          "className": "DSD",
+          "time": "8:00-9:00",
+          "venue": "C12 DEC(new)"
+        },
+        {
+          "className": "DSD(L)",
+          "time": "9:00-11:00",
+          "venue": "C12 DEC(new)"
+        },
+        {
+          "className": "AFL",
+          "time": "11:00-12:00",
+          "venue": "ETC CL-3"
+        },
+        {
+          "className": "PS",
+          "time": "12:00-1:00",
+          "venue": "ETC CL-3"
+        }
+      ],
+      "Wed": [
+        {
+          "className": "PS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-401"
+        },
+        {
+          "className": "DS",
+          "time": "9:00-10:00",
+          "venue": "C-LH-401"
+        },
+        {
+          "className": "AFL",
+          "time": "10:00-11:00",
+          "venue": "C-LH-401"
+        },
+        {
+          "className": "DSD",
+          "time": "11:00-12:00",
+          "venue": "C-LH-003"
+        },
+        {
+          "className": "IND4",
+          "time": "12:00-1:00",
+          "venue": "C-LH-003"
+        }
+      ],
+      "Thu": [
+        
+        {
+          "className": "DS",
+          "time": "8:00-9:00",
+          "venue": "C-LH-001"
+        },
+        {
           "className": "STW",
           "time": "9:00-10:00",
-          "venue": "C-LH-307"
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "PS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-001"
+        },
+        {
+          "className": "IND4",
+          "time": "2:00-3:00",
+          "venue": "C-LH-305"
+        },
+        {
+          "className": "AFL",
+          "time": "3:00-4:00",
+          "venue": "C-LH-305"
+        },
+        {
+          "className": "DS(L)",
+          "time": "4:00-6:00",
+          "venue": "C-WL-102"
+        }
+       
+       
+      ],
+      "Fri": [
+        {
+          "className": "Holiday",
+          "time": "Holiday",
+          "venue": "Holiday"
+        }
+       
+      ],
+      "Sat": [
+        {
+          "className": "DS",
+          "time": "10:00-11:00",
+          "venue": "C-LH-302"
         }
        
       ]
-    }
+    } 
   }
 }
