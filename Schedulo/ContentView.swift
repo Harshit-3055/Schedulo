@@ -2,7 +2,9 @@ import SwiftUI
 
 struct ContentView: View {
     let calendar = Calendar.current
-    @State private var selectedSection = "CSE-34"
+    @AppStorage("selectedSection") private var selectedSection = "CSE-1"
+    @State private var isSheetPresented = false
+    @State private var selectedTab = 0 // Track the selected tab
     @Environment(\.colorScheme) var colorScheme
     let today = Date()
     let weekends: [String] = Calendar.current.shortWeekdaySymbols
@@ -18,63 +20,83 @@ struct ContentView: View {
     @State private var daySelected: String = ""
     @State private var classes: [ClassSchedule] = []
     
-    // Pass scheduleData instance
     let scheduleData: ScheduleData
     
     var body: some View {
-        NavigationStack {
-            VStack {
-                HStack {
-                    ForEach(weekends, id: \.self) { day in
-                        Button(action: { dayPressed(dayPress: day) }) {
-                            Text(day)
-                                .frame(width: 45, height: 45)
-                                .background(daySelected == day ? Color.blue : Color.gray.opacity(0.2))
-                                .foregroundColor(colorScheme == .dark ? Color.white : Color.black)
-                                .clipShape(Circle())
-                        }
-                    }
-                }
-                Form {
-                    ForEach(classes.indices, id: \.self) { index in
-                        let classSchedule = classes[index]
-                        VStack {
-                            HStack {
-                                Image(systemName: "book.fill")
-                                Text(classSchedule.className)
-                                Spacer()
-                                Image(systemName: "clock.fill")
-                                Text(classSchedule.time)
-                            }
-                            HStack {
-                                Image(systemName: "location.fill")
-                                Text(classSchedule.venue)
-                                Spacer()
+        TabView(selection: $selectedTab) {
+            NavigationStack {
+                VStack {
+                    HStack {
+                        ForEach(weekends, id: \.self) { day in
+                            Button(action: { dayPressed(dayPress: day) }) {
+                                Text(day)
+                                    .frame(width: 45, height: 45)
+                                    .background(daySelected == day ? Color.blue : Color.gray.opacity(0.2))
+                                    .foregroundColor(colorScheme == .dark ? Color.white : Color.black)
+                                    .clipShape(Circle())
                             }
                         }
                     }
-                }
-
-                .navigationTitle("Schedulo")
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Picker("Section", selection: $selectedSection) {
-                            ForEach(0..<49) { sec in
-                                Text("CSE-\(sec)").tag("CSE-\(sec)")
+                    Form {
+                        ForEach(classes.indices, id: \.self) { index in
+                            let classSchedule = classes[index]
+                            VStack {
+                                HStack {
+                                    Image(systemName: "book.fill")
+                                    Text(classSchedule.className)
+                                        .bold()
+                                    Spacer()
+                                    Image(systemName: "clock.fill")
+                                    Text(classSchedule.time)
+                                }
+                                HStack {
+                                    Image(systemName: "location.fill")
+                                    Text(classSchedule.venue)
+                                    Spacer()
+                                }
                             }
                         }
-                        .pickerStyle(MenuPickerStyle())
                     }
-                }
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-                .padding()
-                .onChange(of: selectedSection) { _ in
-                    dayPressed(dayPress: daySelected)
-                }
-                .onAppear {
-                    todaysDay(day: todayName)
+                    .navigationTitle("Schedulo")
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Picker("Section", selection: $selectedSection) {
+                                ForEach(1..<49) { sec in
+                                    Text("CSE-\(sec)").tag("CSE-\(sec)")
+                                }
+                            }
+                            .pickerStyle(MenuPickerStyle())
+                        }
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+                    .padding()
+                    .onChange(of: selectedSection) { _ in
+                        dayPressed(dayPress: daySelected)
+                    }
+                    .onAppear {
+                        todaysDay(day: todayName)
+                    }
                 }
             }
+            .tabItem {
+                Label("Home", systemImage: "house")
+            }
+            .tag(0)
+            
+            Text("") // Placeholder view
+                .tabItem {
+                    Label("Change Section", systemImage: "rectangle.and.pencil.and.ellipsis")
+                }
+                .tag(1)
+                .onAppear {
+                    isSheetPresented = true
+                }
+        }
+        .sheet(isPresented: $isSheetPresented, onDismiss: {
+            // Return to the Home tab after dismissing the sheet
+            selectedTab = 0
+        }) {
+            SheetView(isSheetPresented: $isSheetPresented, selectedTab: $selectedTab, selectedSection: $selectedSection)
         }
     }
     
@@ -92,23 +114,12 @@ struct ContentView: View {
     }
     
     func todaysDay(day: String) {
-        switch(day) {
-        case "Sun": daySelected = "Sun"
-        case "Mon": daySelected = "Mon"
-        case "Tue": daySelected = "Tue"
-        case "Wed": daySelected = "Wed"
-        case "Thu": daySelected = "Thu"
-        case "Fri": daySelected = "Fri"
-        case "Sat": daySelected = "Sat"
-        default:
-            daySelected = "Holiday"
-        }
+        daySelected = day
         dayPressed(dayPress: daySelected)
     }
 }
 
 #Preview {
-    // Ensure you pass the actual scheduleData instance here
     if let scheduleData = loadScheduleData() {
         ContentView(scheduleData: scheduleData)
     } else {
